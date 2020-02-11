@@ -13,6 +13,7 @@
 		30BC071523E31C4A008FF751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BC071423E31C4A008FF751 /* Assets.xcassets */; };
 		30BC071823E31C4A008FF751 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BC071723E31C4A008FF751 /* Preview Assets.xcassets */; };
 		30BC071B23E31C4A008FF751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BC071923E31C4A008FF751 /* LaunchScreen.storyboard */; };
+		30D6E40423E3240E00FF0E33 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6E40323E3240E00FF0E33 /* People.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		30BC071723E31C4A008FF751 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30BC071A23E31C4A008FF751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30BC071C23E31C4A008FF751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D6E40323E3240E00FF0E33 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				30BC070E23E31C48008FF751 /* AppDelegate.swift */,
 				30BC071023E31C48008FF751 /* SceneDelegate.swift */,
 				30BC071223E31C48008FF751 /* ContentView.swift */,
+				30D6E40323E3240E00FF0E33 /* People.swift */,
 				30BC071423E31C4A008FF751 /* Assets.xcassets */,
 				30BC071923E31C4A008FF751 /* LaunchScreen.storyboard */,
 				30BC071C23E31C4A008FF751 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D6E40423E3240E00FF0E33 /* People.swift in Sources */,
 				30BC070F23E31C48008FF751 /* AppDelegate.swift in Sources */,
 				30BC071123E31C48008FF751 /* SceneDelegate.swift in Sources */,
 				30BC071323E31C48008FF751 /* ContentView.swift in Sources */,
