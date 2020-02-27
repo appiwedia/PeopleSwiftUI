@@ -12,10 +12,11 @@ struct People: Identifiable {
     var id = UUID()
     var imageName: String
     var name: String
+    var age: Int
     
     static let `default` = [
-    People(imageName: "people0", name: "Olivier"),
-    People(imageName: "people1", name: "Sarah"),
-    People(imageName: "people2", name: "Fadela"),
-    People(imageName: "people3", name: "Zohra")]
+        People(imageName: "people0", name: "Olivier", age: 30),
+        People(imageName: "people1", name: "Sarah", age: 22),
+        People(imageName: "people2", name: "Fadela", age: 45),
+        People(imageName: "people3", name: "Zohra", age: 23)]
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		305326F12407D200006C4615 /* PeopleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305326F02407D200006C4615 /* PeopleDetailView.swift */; };
 		30BC070F23E31C48008FF751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC070E23E31C48008FF751 /* AppDelegate.swift */; };
 		30BC071123E31C48008FF751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC071023E31C48008FF751 /* SceneDelegate.swift */; };
 		30BC071323E31C48008FF751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC071223E31C48008FF751 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305326F02407D200006C4615 /* PeopleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailView.swift; sourceTree = "<group>"; };
 		30BC070B23E31C48008FF751 /* PeopleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BC070E23E31C48008FF751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30BC071023E31C48008FF751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				30BC070E23E31C48008FF751 /* AppDelegate.swift */,
 				30BC071023E31C48008FF751 /* SceneDelegate.swift */,
 				30BC071223E31C48008FF751 /* ContentView.swift */,
+				305326F02407D200006C4615 /* PeopleDetailView.swift */,
 				30D6E40323E3240E00FF0E33 /* People.swift */,
 				30BC071423E31C4A008FF751 /* Assets.xcassets */,
 				30BC071923E31C4A008FF751 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				30BC070F23E31C48008FF751 /* AppDelegate.swift in Sources */,
 				30BC071123E31C48008FF751 /* SceneDelegate.swift in Sources */,
 				30BC071323E31C48008FF751 /* ContentView.swift in Sources */,
+				305326F12407D200006C4615 /* PeopleDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

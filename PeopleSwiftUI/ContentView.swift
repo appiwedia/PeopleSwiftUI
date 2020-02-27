@@ -11,8 +11,13 @@ struct ContentView: View {
     
     var body: some View {
         
-        List(People.default) { people in
-            PeopleView(people: people)
+        NavigationView {
+            List(People.default) { people in
+                
+                NavigationLink(destination: PeopleDetailView(people: people)) {
+                    PeopleView(people: people)
+                }
+            }.navigationBarTitle("Mes potes", displayMode: .large)
         }
     }
 }
